@@ -4,113 +4,172 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kerala Tourism</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <header>
-            <img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Kerala_God%27s_Own_Country_Logo.svg" alt="Kerala Tourism Logo" height="100px" width="150px">
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li><br>
-                    <li><a href="#">Destinations</a></li><br>
-                    <li><a href="#">About Us</a></li><br>
-                    <li><button>Login</button></li><br>
-                    <li><button>Sign Up</button></li><br>
-                </ul>
-            </nav>
-        </header>
+    <header class="bg-light p-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Kerala_God%27s_Own_Country_Logo.svg" alt="Kerala Tourism Logo" class="img-fluid" height="80px" width="70px">
+               
+                <nav>
+                    <ul class="nav flex-column flex-md-row">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Explore</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
         <section>
-            <h1><u>COME AND EXPLORE OUR CULTURE.</u></h1>
-            <a href="#">Learn</a>
-            <a href="#">Contact Us</a>
+            <h1 class="text-center"><u>Top Destinations</u></h1><br><br>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0lucvJeZ4Z7bpzohj7e7-Y5Y9TxOFrQZsg&s" class="card-img-top" alt="Alleppey backwaters">
+                        <div class="card-body">
+                            <h5 class="card-title">Alleppey</h5>
+                            <p class="card-text">Alleppey, also known as Alappuzha, is a picturesque town in Kerala, India, renowned for its serene backwaters, houseboats, and intricate network of canals. Often referred to as the "Venice of the East," it offers visitors a tranquil escape amidst lush greenery and charming waterways.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="./images/58490365.cms" class="card-img-top" alt="Munnar">
+                        <div class="card-body">
+                            <h5 class="card-title">Munnar</h5>
+                            <p class="card-text">Munnar, a picturesque hill station in Kerala, India, is renowned for its sprawling tea plantations, misty hills, and serene landscapes. This charming destination offers a tranquil retreat with its lush greenery, wildlife sanctuaries, and breathtaking viewpoints.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vagamon_meadows.JPG/800px-Vagamon_meadows.JPG" class="card-img-top" alt="Vagamon">
+                        <div class="card-body">
+                            <h5 class="card-title">Vagamon</h5>
+                            <p class="card-text">Vagamon, a serene hill station in Kerala, India, is known for its lush greenery, rolling meadows, and cool climate. It offers a perfect getaway for nature lovers and adventure enthusiasts with activities like trekking, paragliding, and sightseeing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="./images/58490365.cms" class="card-img-top" alt="Munnar">
+                        <div class="card-body">
+                            <h5 class="card-title">Wayanad</h5>
+                            <p class="card-text">Wayanad is a picturesque district in Kerala, India, tea and coffee plantations.ate year-round,making it a popular destination for nature lovers and adventure seekers. Key attractions include the Wayanad Wildlife Sanctuary, Chembra Peak, and the ancient Edakkal Caves, which feature prehistoric rock engravings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vagamon_meadows.JPG/800px-Vagamon_meadows.JPG" class="card-img-top" alt="Vagamon">
+                        <div class="card-body">
+                            <h5 class="card-title">Vagamon</h5>
+                            <p class="card-text">Vagamon, a serene hill station in Kerala, India, is known for its lush greenery, rolling meadows, and cool climate. It offers a perfect getaway for nature lovers and adventure enthusiasts with activities like trekking, paragliding, and sightseeing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://miro.medium.com/v2/resize:fit:640/1*lHGHNdZWNHE22T6dN6a4Yw.png" class="card-img-top" alt="Athirapally Waterfall">
+                        <div class="card-body">
+                            <h5 class="card-title">Nilambur</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam assumenda voluptas praesentium ipsum velit pariatur inventore hic, aperiam autem eligendi ut omnis voluptatum minus dolore fuga est fugiat. Ullam, a</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <h1 class="text-center"><u>About Kerala</u></h1>
+            <div class="text-center mb-4">
+                <img src="images/1716296027.webp" class="img-fluid" alt="Kerala map">
+            </div>
+            <p>Kerala, known as "God's Own Country," is a state in southwestern India famed for its lush landscapes, serene backwaters, and vibrant culture. Bordered by the Arabian Sea to the west and sharing boundaries with Karnataka and Tamil Nadu, Kerala's diverse geography includes beaches, hill stations, and extensive backwater networks. Its major cities include Thiruvananthapuram (the capital), Kochi, and Kozhikode. Culturally rich and historically significant, Kerala has been influenced by various civilizations through centuries of trade, resulting in a unique blend of traditions. The state is renowned for its classical dance forms like Kathakali and Mohiniyattam, traditional martial arts like Kalaripayattu, and colorful temple festivals. With the highest literacy rate in India, Kerala also boasts impressive human development indicators and progressive social policies. Kerala's cuisine, marked by the abundant use of coconut and spices, is as diverse as its landscapes, featuring dishes like appam, puttu, and a variety of seafood. The state's natural beauty, from the backwaters of Alleppey to the hill stations of Munnar and wildlife sanctuaries like Periyar, makes it a major tourist destination, attracting visitors worldwide for its scenic charm and cultural richness.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h1 class="text-center"><u>Districts</u></h1>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#">Alappuzha</a></li>
+                <li class="list-group-item"><a href="#">Ernakulam</a></li>
+                <li class="list-group-item"><a href="#">Idukki</a></li>
+                <li class="list-group-item"><a href="#">Kannur</a></li>
+                <li class="list-group-item"><a href="#">Kasaragod</a></li>
+                <li class="list-group-item"><a href="#">Kollam</a></li>
+                <li class="list-group-item"><a href="#">Kottayam</a></li>
+                <li class="list-group-item"><a href="#">Kozhikode</a></li>
+                <li class="list-group-item"><a href="#">Malappuram</a></li>
+                <li class="list-group-item"><a href="#">Palakkad</a></li>
+                <li class="list-group-item"><a href="#">Pathanamthitta</a></li>
+                <li class="list-group-item"><a href="#">Thiruvananthapuram</a></li>
+                <li class="list-group-item"><a href="#">Thrissur</a></li>
+                <li class="list-group-item"><a href="#">Wayanad</a></li>
+            </ul>
+        </section>
+        <main class="container my-4">
+            <section class="text-center mb-4">
+                <h5>COME AND EXPLORE OUR CULTURE.</h5>
+                <a class="btn btn-info mr-3" href="#">Learn More </a>
+                <a class="btn btn-warning mx-2" href="#">Contact Us</a>
+            </section>
+        <hr>
+
+        <section>
+            <form>
+                <fieldset class="border p-3">
+                    <legend class="w-auto">Contact Us</legend>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Number:</label>
+                        <input type="text" id="number" name="number" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="district">Districts:</label>
+                        <select id="district" name="district" class="form-control" required>
+                            <option value="Alappuzha">Alappuzha</option>
+                            <option value="Ernakulam">Ernakulam</option>
+                            <option value="Idukki">Idukki</option>
+                            <option value="Kannur">Kannur</option>
+                            <option value="Kasaragod">Kasaragod</option>
+                            <option value="Kollam">Kollam</option>
+                            <option value="Kottayam">Kottayam</option>
+                            <option value="Kozhikode">Kozhikode</option>
+                            <option value="Malappuram">Malappuram</option>
+                            <option value="Palakkad">Palakkad</option>
+                            <option value="Pathanamthitta">Pathanamthitta</option>
+                            <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                            <option value="Thrissur">Thrissur</option>
+                            <option value="Wayanad">Wayanad</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </fieldset>
+            </form>
         </section>
     </main>
-    <hr>
-    <section>
-        <h1><u>Top Destinations</u></h1>
-        <article>
-            <h3><u>Alleppey</u></h3>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0lucvJeZ4Z7bpzohj7e7-Y5Y9TxOFrQZsg&s" alt="Alleppey backwaters" height="200px" width="350px">
-            <p>Alleppey, also known as Alappuzha, is a picturesque town in Kerala, India, renowned for its serene backwaters, houseboats, and intricate network of canals. Often referred to as the "Venice of the East," it offers visitors a tranquil escape amidst lush greenery and charming waterways.</p>
-        </article>
-        <article>
-            <h3><u>Munnar</u></h3>
-            <img src="./images/58490365.cms" alt="munnar" height="200px" width="350px">
-            <p>Munnar, a picturesque hill station in Kerala, India, is renowned for its sprawling tea plantations, misty hills, and serene landscapes. This charming destination offers a tranquil retreat with its lush greenery, wildlife sanctuaries, and breathtaking viewpoints.</p>
-        </article>
-        <article>
-            <h3><u>Vagamon</u></h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vagamon_meadows.JPG/800px-Vagamon_meadows.JPG" alt="Vagamon"height="200px" width="350px">
-            <p>Vagamon, a serene hill station in Kerala, India, is known for its lush greenery, rolling meadows, and cool climate. It offers a perfect getaway for nature lovers and adventure enthusiasts with activities like trekking, paragliding, and sightseeing.</p>
-        </article>
-        <article>
-            <h3><u>Athirapally</u></h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/The_View_of_the_Athirapally_Falls_during_the_onset_of_Monsoon.jpg" alt="Athirapally Waterfall"height="200px" width="350px">
-            <p>Athirapally, located in the Thrissur district of Kerala, India, is renowned for its breathtaking waterfall, often referred to as the "Niagara of India." The lush greenery, diverse wildlife, and serene ambiance make it a popular destination for nature lovers and tourists.</p>
-        </article>
-    </section>
-    <hr>
-    <section>
-        <h1><u>About Kerala</u></h1>
-        <article>
-            <img src="images/1716296027.webp" alt="Kerala map" height="500px" width="500px">
-            <p>Kerala, known as "God's Own Country," is a state in southwestern India famed for its lush landscapes, serene backwaters, and vibrant culture. Bordered by the Arabian Sea to the west and sharing boundaries with Karnataka and Tamil Nadu, Kerala's diverse geography includes beaches, hill stations, and extensive backwater networks. Its major cities include Thiruvananthapuram (the capital), Kochi, and Kozhikode. Culturally rich and historically significant, Kerala has been influenced by various civilizations through centuries of trade, resulting in a unique blend of traditions. The state is renowned for its classical dance forms like Kathakali and Mohiniyattam, traditional martial arts like Kalaripayattu, and colorful temple festivals. With the highest literacy rate in India, Kerala also boasts impressive human development indicators and progressive social policies. Kerala's cuisine, marked by the abundant use of coconut and spices, is as diverse as its landscapes, featuring dishes like appam, puttu, and a variety of seafood. The state's natural beauty, from the backwaters of Alleppey to the hill stations of Munnar and wildlife sanctuaries like Periyar, makes it a major tourist destination, attracting visitors worldwide for its scenic charm and cultural richness.</p>
-        </article>
-    </section>
-    <hr>
-    <section>
-        <h1><u>Districts</u></h1>
-        <ol>
-            <li><a href="#">Alappuzha</a></li>
-            <li><a href="#">Ernakulam</a></li>
-            <li><a href="#">Idukki</a></li>
-            <li><a href="#">Kannur</a></li>
-            <li><a href="#">Kasaragod</a></li>
-            <li><a href="#">Kollam</a></li>
-            <li><a href="#">Kottayam</a></li>
-            <li><a href="#">Kozhikode</a></li>
-            <li><a href="#">Malappuram</a></li>
-            <li><a href="#">Palakkad</a></li>
-            <li><a href="#">Pathanamthitta</a></li>
-            <li><a href="#">Thiruvananthapuram</a></li>
-            <li><a href="#">Thrissur</a></li>
-            <li><a href="#">Wayanad</a></li>
-        </ol>
-    </section>
-    <hr>
-    <section>
-        <form action="#">
-            <fieldset>
-                <legend>Contact Us</legend>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="number">Number:</label>
-                <input type="text" id="number" name="number" required><br><br>
-                <label for="district">Districts:</label>
-                <select id="district" name="district" required>
-                    <option value="Alappuzha">Alappuzha</option>
-                    <option value="Ernakulam">Ernakulam</option>
-                    <option value="Idukki">Idukki</option>
-                    <option value="Kannur">Kannur</option>
-                    <option value="Kasaragod">Kasaragod</option>
-                    <option value="Kollam">Kollam</option>
-                    <option value="Kottayam">Kottayam</option>
-                    <option value="Kozhikode">Kozhikode</option>
-                    <option value="Malappuram">Malappuram</option>
-                    <option value="Palakkad">Palakkad</option>
-                    <option value="Pathanamthitta">Pathanamthitta</option>
-                    <option value="Thiruvananthapuram">Thiruvananthapuram</option>
-                    <option value="Thrissur">Thrissur</option>
-                    <option value="Wayanad">Wayanad</option>
-                </select><br><br>
-                <input type="submit" value="Submit">
-            </fieldset>
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2024 Kerala Tourism. All rights reserved. | Contact us at: <a href="mailto:keralatourism@gmail.com">keralatourism@gmail.com</a> | Website : <a href="#">www.keralatourisum.gov.in</a></p>
+
+    <footer class="bg-light text-center p-3">
+        <p>&copy; 2024 Kerala Tourism. All rights reserved. | Contact us at: <a href="mailto:keralatourism@gmail.com">keralatourism@gmail.com</a> | Website: <a href="#">www.keralatourism.gov.in</a></p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
